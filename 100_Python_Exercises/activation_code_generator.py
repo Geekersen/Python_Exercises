@@ -8,6 +8,7 @@ activation_code_generator.py
 
 
 import secrets
+from pprint import pprint
 
 
 def activation_code_generator(key_bytes=20, key_nums=1):
@@ -17,5 +18,5 @@ def activation_code_generator(key_bytes=20, key_nums=1):
     return tuple(key_set)
 
 if __name__ == '__main__':
-    key_list = activation_code_generator(key_bytes=20, key_nums=200)
-    print(key_list)
+    key_set = activation_code_generator(key_bytes=20, key_nums=200)
+    pprint(key_set)
