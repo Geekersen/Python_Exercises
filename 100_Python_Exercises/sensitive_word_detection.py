@@ -9,9 +9,9 @@ sensitive_word_detection.py
 import os
 
 
-def sensitive_word_detection(detected_word, filter_words):
+def sensitive_word_detection(detected_words, filter_words):
     for word in filter_words:
-        if word in detected_word:
+        if word in detected_words:
             break
     else:
         print('human rights')
