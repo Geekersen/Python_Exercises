@@ -11,7 +11,7 @@ import os
 
 def sensitive_word_detection(detected_word, filter_words):
     for word in filter_words:
-        if detected_word == word:
+        if word in detected_word:
             break
     else:
         print('human rights')
