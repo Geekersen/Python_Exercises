@@ -26,8 +26,8 @@ def count_words_in(file_data):
 if __name__ == '__main__':
 
     # 修改工作路径，以能够读取到 Test_Data 目录下的测试文件
-    os.chdir('/Users/richardsen/PycharmProjects/Python_Exercises')
+    os.chdir('../Test_Data')
 
-    with open('./Test_Data/relativity', 'r') as english_file:
+    with open('relativity', 'r') as english_file:
         file_data = english_file.read()
         count_words_in(file_data)
