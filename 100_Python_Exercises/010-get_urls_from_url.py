@@ -1,6 +1,6 @@
 """
 
-010-get_urls_from_html.py
+010-get_urls_from_url.py
 
 描述：得到网站上的所有网络链接
 
