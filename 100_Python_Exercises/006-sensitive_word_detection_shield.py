@@ -1,6 +1,6 @@
 """
 
-sensitive_word_detection_shield.py
+006-sensitive_word_detection_shield.py
 
 描述：敏感词文本文件 filtered_words.txt ，当用户输入敏感词时，将敏感词用 ** 代替。
 

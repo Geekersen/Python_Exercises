@@ -1,6 +1,6 @@
 """
 
-sensitive_word_detection.py
+005-sensitive_word_detection.py
 
 描述：敏感词文本文件 filtered_words.txt ，当用户输入敏感词时，输出 freedom ，否则输出 human rights
 

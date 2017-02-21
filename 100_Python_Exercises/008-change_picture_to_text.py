@@ -1,6 +1,6 @@
 """
 
-change_picture_to_text.py
+008-change_picture_to_text.py
 
 描述：将图片变成字符画
 

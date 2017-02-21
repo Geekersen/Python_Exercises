@@ -1,6 +1,6 @@
 """
 
-get_picture_from_url.py
+004-get_picture_from_url.py
 
 描述：将一个网站上的所有的需要的图片全部下载下来，即爬网站的图片。
 

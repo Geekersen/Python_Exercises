@@ -1,6 +1,6 @@
 """
 
-activation_code_generator.py
+002-activation_code_generator.py
 
 描述：随机生成200个20个字符的激活码
 

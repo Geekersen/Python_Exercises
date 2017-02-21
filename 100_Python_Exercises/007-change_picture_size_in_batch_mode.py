@@ -1,6 +1,6 @@
 """
 
-change_picture_size_in_batch_mode.py
+007-change_picture_size_in_batch_mode.py
 
 描述：批量修改目录中图片的分辨率，使其不大于规定大小。此例中图片大小为iPhone5分辨率大小。
      其中读取的目录为 get_picture_from_url.py 程序运行后产生的目录中图片。
