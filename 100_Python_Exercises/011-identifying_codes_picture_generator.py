@@ -18,7 +18,7 @@ CODE_LEN = 4
 
 
 def random_color():
-    return (randint(0, 256), randint(0, 256), randint(0, 256))
+    return randint(0, 256), randint(0, 256), randint(0, 256)
 
 
 def identifying_code_picture_generatro(width=400, hight=200, chance=10):
