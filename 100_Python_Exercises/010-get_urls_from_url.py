@@ -22,3 +22,4 @@ def get_urls_from(url):
 
 if __name__ == '__main__':
     pprint(get_urls_from('http://stackoverflow.com/questions/24075855/python-and-collective-intelligence-keyerror-href'))
+    print("fuck you")
